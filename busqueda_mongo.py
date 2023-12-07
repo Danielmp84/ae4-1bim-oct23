@@ -12,9 +12,9 @@ resultados = collection.find()
 
 # Imprimir los resultados
 for resultado in resultados:
-    print(resultado)
+     print(resultado)
 
-collection2 = db["registrosevehiculos"]
+collection2 = db["registrosvehiculos"]
 
 # Consultar todos los registros en la colección
 resultados2 = collection2.find()
